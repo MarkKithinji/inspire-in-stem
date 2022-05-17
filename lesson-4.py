@@ -8,12 +8,13 @@ diff = y - x
 prod = x * y
 quot = y / x
 
+
 print (" the sum of x and y is " +str(sum_of)) 
 print (" the diference of x and y is " +str(diff)) 
 print (" the product of x and y is " +str(prod)) 
 print (" the quotient of x and y is " +str(quot)) 
 
-# calculate the volume of a circle
+# calculate the volume of a circle added a new change
 # surface area of a cylinder
 # area of a cirle
 # volume of a cylinder
