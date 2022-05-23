@@ -11,9 +11,9 @@ txt = """i am Mark Victor
 
                                # learning: slice to the end
 
-#city = "nairobi"
-#print(city[:5])
-#print(city[-2:])
+city = "nairobi"
+print(city[:5])
+print(city[-2:])
 
 
 f_name = " victor mark"
