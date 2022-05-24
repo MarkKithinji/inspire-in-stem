@@ -24,7 +24,7 @@ motorcycle = ['honda', 'yamaha', 'tuktuk', 'suzuki,']
 
 motorcycle[0] = "bugatti"   
 
-motorcycle[2]= tricycle
+#motorcycle[2]= tricycle
 print (motorcycle[-1])
                          #adding elements in a list (append)
 

@@ -24,3 +24,7 @@ for number in range (1,20,3):
 
 else:
     print ("attempted 10 times and failed")
+
+for x in range (1, 5, 2):
+    for y in range (3):
+        print("{}, {}".format (x, y))
