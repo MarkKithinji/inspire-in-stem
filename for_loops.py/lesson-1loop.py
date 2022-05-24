@@ -2,5 +2,6 @@
 #mark Victor
 # 23| 5| 2022
 
-for number in range (0,9):
-    print (number)
+a = ["banana, apple, microsoft, huawei"]
+for element in a:
+    print(element)
