@@ -31,27 +31,40 @@
 
 #initializing dictionary ****************************************
 
-student = {"name": "mark", "age":"methusella", "gender":"male"}
+#student = {"name": "mark", "age":"methusella", "gender":"male"}
 
-print(student['name']+ " is " + student['age'] + "'s" + " agemate coz he is " + student['gender'])
+#print(student['name']+ " is " + student['age'] + "'s" + " agemate coz he is " + student['gender'])
 
 #adding pairs to dictionary
-student["id-number"] = "3024968"
-student["hobby"]="reading"
-student["football_preference"]="man city"
+#student["id-number"] = "3024968"
+#student["hobby"]="reading"
+#student["football_preference"]="man city"
 
 #print (student)
 
 # to empty dictionary
-student={}
-student["home_city"]="nakuru" #adding new things to dictionary
-student["favourite_food"]= "ndengu"
+#student={}
+#student["home_city"]="nakuru" #adding new things to dictionary
+#student["favourite_food"]= "ndengu"
 
 #print (student)
 
-student["home_city"] = "Meru"
+#student["home_city"] = "Meru"#
 #print (student)
 
 #to remove anything, use the keyword, del
-del student ["favourite_food"]
-print (student)
+#del student ["favourite_food"]
+#print (student)
+
+
+from unicodedata import name
+
+
+person = {'name': 'david spencer',
+           'gender': 'female',
+           'phone_number': '000',
+           'location': 'Nattenda'}
+
+person['age'] = '18'
+person['fav_colour'] = 'jungle_green'
+print (person.get('loction', 'the location is non existent'))
