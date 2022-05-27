@@ -26,16 +26,16 @@ else:
 
     age_verify = input ("enter your age---")
     if age_verify > 12:
-        if age_verify < 30:
-
+        if age_verify < 30: 
+     
             print ("please retry after i have learnt how to loop huge chunks of code. \n thanks anyways for trying")
 
+    elif age_verify < 12:
+        print ("sorry. \nyou do not qualify")
+           
+        print (" you will qualify once you get 12. \n thanks for your patience")
     else:
-            print ("sorry. \nyou do not qualify")
-            if age_verify < 12:
-                print (" you will qualify once you get 12. \n thanks for your patience")
-                if age_verify > 31:
-                  print ("You do not qualify for the youth program\n apollogies")
+         print ("You do not qualify for the youth program\n apollogies")
 
  
             

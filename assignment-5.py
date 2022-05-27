@@ -1,10 +1,10 @@
-mary_fav_food= ['beef', 'mbosho', 'mutura']
-jane_fav_food= ['waru', 'mukimu', 'kahawa baridi']
+#fav_foods= ['beef', 'mbosho', 'mutura','waru', 'mukimu', 'kahawa baridi']
+# a, b, 
 
 
 
-fav_food = {
-    'mary':[mary_fav_food],
-    'jane':[jane_fav_food]}
-
-print (fav_food)
+fav_food = ['beef', 'mbosho', 'mutura','waru', 'mukimu', 'kahawa baridi']
+for x in fav_food:
+     print("janes favourite food is ", fav_food[:3])
+     print("Mary's favourite food is ", fav_food[3:])
+     break
