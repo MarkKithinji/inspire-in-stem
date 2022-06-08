@@ -1,0 +1,31 @@
+This is a normal text file.
+no big stuff goes on here buh it still kinda fun to just type *-*
+oh, and btw, that boring part is stored here
+
+#!/usr/bin/python
+# mark Victor
+# 0* |0* | 2022
+# EMPTY
+
+
+#open files for reading
+f = open("lesson.txt")
+f = open("lesson.txt",'r')
+
+#for writing
+f = open("lesson.txt",'w')
+
+#for exclusive creation
+f = open("lesson2.txt",'x') < creates a new file >
+
+#for appending
+f = open("lesson.txt",'a')
+
+# opening in text mode 
+f = open("lesson.txt",'t') < read and write text to the file >
+
+# for updating
+f = open("lesson.txt",'+')
+
+#in binary mode
+f = open("lesson.txt",'b') < can't read or write text >

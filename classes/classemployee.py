@@ -1,9 +1,5 @@
 
-#!/usr/bin/python
-# mark Victor
-# 02 |06 | 2022
-# Classes
-
+wwwwwww
 
 #make a class that will ahve employee name and aemplyee salary
 
