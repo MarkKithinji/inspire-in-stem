@@ -1,8 +1,5 @@
-#!/usr/bin/python
-# mark Victor
-# 02 |06 | 2022
-# Classes
 
+get_pali= input('enter a number to check if it is a palindrome')
 
 
 num= input('enter any number')

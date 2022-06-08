@@ -2,7 +2,7 @@
 # mark Victor
 # 05 |06 | 2022
 # password generator
-print('WELCOME TO PASSWORD GENERATOR\n intiating sign in...')
+'''print('WELCOME TO PASSWORD GENERATOR\n intiating sign in...')
 
 E_mail= str(input('Enter Email address in this formart (myadress123@youmail.com)\n---'))
 
@@ -76,58 +76,50 @@ with open ('databank.txt') as f:
             
 
 
-if checkpoint == 'passed':
-    import random
-    name= input('enter your name please?\n---')
-    P_number= str(input('enter phone number\n---'))
-    
-    
+if checkpoint == 'passed':'''
+import random
+name= input('enter your name please?\n---')
+P_number= str(input('enter phone number\n---'))
+ 
+ 
+ #trying to pull indivudual vaues from the inputed values
+shuffled= list(name)#
+random.shuffle(shuffled)
+shuffled= ''.join(shuffled)
+shuffled_2= list(P_number)#
+random.shuffle(shuffled_2)
+shuffled= ''.join(shuffled_2)
+shuffled_3= list(E_mail)#
+random.shuffle(shuffled_3)
+shuffled= ''.join(shuffled_3)
 
-    #trying to pull indivudual vaues from the inputed values
-
-    shuffled= list(name)#
-    random.shuffle(shuffled)
-    shuffled= ''.join(shuffled)
-    shuffled_2= list(P_number)#
-    random.shuffle(shuffled_2)
-    shuffled= ''.join(shuffled_2)
-    shuffled_3= list(E_mail)#
-    random.shuffle(shuffled_3)
-    shuffled= ''.join(shuffled_3)
-
-    characters= (shuffled,shuffled_2,shuffled_3)
-    print (characters)
+characters= (shuffled,shuffled_2,shuffled_3)
+print (characters)
 
 
-    word = (shuffled)
-    shuffled = list(word)
-    random.shuffle(shuffled)
-    shuffled = ''.join(shuffled)
-    print( shuffled) 
-
-
-
+word = (shuffled)
+shuffled = list(word)
+random.shuffle(shuffled)
+shuffled = ''.join(shuffled)
+print( shuffled) 
+basket=''
+while basket =='':
+    basket= characters
+    no_passwords= 1
+    no_digits= int(input('How long do you wish your password to be?' +'NOTICE'+' \n password should have at most 5 figures\n---'))
+else:
     basket=''
-    while basket =='':
-        
-        basket= characters
-
-        no_passwords= 1
-        no_digits= int(input('How long do you wish your password to be?' +'NOTICE'+' \n password should have at most 5 figures\n---'))
-    else:
-        basket=''
-        
-
-        if no_digits <= 5:
-            for i in range (0,no_passwords):
-                password=''
-                for i in range (0, no_digits):
+    
+    if no_digits <= 5:
+        for i in range (0,no_passwords):
+            password=''
+            for i in range (0, no_digits):
                     swapper_2= random.choice(characters)
                     password= password , swapper_2
-                
-            print('new password generated...', password)
             
-        else:
+        print('new password generated...', password)
+        
+    else:
             print('too many characters, retry')
             no_digits= int(input('How long do you wish your password to be?' +'NOTICE'+' \n password should have at most 20 figures\n---'))
             
