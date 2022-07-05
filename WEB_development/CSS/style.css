@@ -1,0 +1,36 @@
+body{
+    margin:40px;
+    padding:10px;
+    background-color: rgba(75, 116, 126, 0.356);
+    
+}
+
+nav{
+    color: rgb(16, 85, 141);
+    
+}  
+div{
+    background-color: rgba(0, 0, 0, 0.904);
+} 
+
+/* this is to target an id*/
+#nav_1{
+    margin: 20px;
+}
+
+/*this is how you target a class*/
+.links{
+
+    color:blue;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 70px;
+    
+}
+#div_par{
+    background-color: aqua;
+    width: 90%;
+}
+
+#java1{
+    font-family: 'Courier New', Courier, monospace;
+}
