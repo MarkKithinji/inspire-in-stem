@@ -25,8 +25,8 @@ def open_pop_up():
     top.configure(bg="green")
     msg=Label(top,text="Welcome to pop up",font=("Mistral", 18))
 
-btn=Button(window,text="sign up",bg="lavender",fg="black",command=open_pop_up().pack())
-btn.grid(column=100,row=150)
+#btn=Button(window,text="sign up",bg="lavender",fg="black",command=open_pop_up().pack())
+#btn.grid(column=100,row=150)
 
 
 
