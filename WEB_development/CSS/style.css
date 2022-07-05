@@ -9,8 +9,10 @@ nav{
     color: rgb(16, 85, 141);
     
 }  
-div{
+.contacts{
     background-color: rgba(0, 0, 0, 0.904);
+    border-left: 1%;
+    border-right: 1%;
 } 
 
 /* this is to target an id*/
